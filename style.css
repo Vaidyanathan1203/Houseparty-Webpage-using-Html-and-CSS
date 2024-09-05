@@ -1,0 +1,267 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+body,.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: #eee;
+}
+
+h1,h2,h3 {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 900;
+}
+
+span a {
+    position: fixed;
+    z-index: 1;
+    top: 17px;
+    left: 23px;
+    background-color: #0e3ff2;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+
+.box {
+    float: left;
+    width: 50%;
+    height: 112vh;
+    flex-wrap: wrap;
+    padding: 65px;
+}
+
+
+.box h1 {
+    font-size: 72px;
+    line-height: 100px;
+    margin: 17px 32px;
+}
+
+
+.box a.downld,.app a,.macApp a {
+    margin: 25px 37px;
+    display: inline-block;
+    font-weight: 900;
+    box-shadow: 0 0 2.75px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    background-color: #ff004d;
+    border-radius: 45px;
+    padding: 17px 45px;
+    transition: 0.2s;
+}
+
+.box a.downld:hover,.app a:hover,.macApp a:hover {
+    background: #89002a;
+}
+
+#first,#last {
+    background-color: #ffd14d;
+}
+
+#second {
+    background-color: #ff004d;
+}
+
+#second img,#third img {
+    width: 250px;
+    position: relative;
+    top: 40px;
+    left: 125px;
+}
+
+#third {
+    background-color: #0e3ff2;
+}
+
+#fourth h2,#fifth h2 {
+    margin-left: 25px;
+    font-size: 58px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+#fifth {
+    background-color: #000;
+}
+
+#fifth h2 {
+    color: white;
+}
+
+#last .last {
+    margin: 79px 65px;
+}
+
+#last h2 {
+    display: inline-block;
+    font-size: 43px;
+    background-color: #000;
+    color: #eee;
+    margin-top: 45px;
+    padding: 0px 13px;
+}
+
+#last h2.bt {
+    margin-left: 45px;
+}
+
+#last h2.by {
+    margin-left: 90px;
+}
+
+
+.app {
+    align-items: center;
+    width: 1233px;
+    margin: 0 auto;
+    height: 452px;
+    text-align: center;
+    padding: 13px;
+}
+
+
+.col {
+    width: calc(25%);
+}
+
+#iphone img {
+    width: 105px;
+    margin-bottom: 10px;
+}
+
+#android img {
+    width: 104px;
+}
+
+#mac img {
+    margin-top: 69px;
+    width: 247px;
+}
+
+#chrome img {
+    margin-top: 69px;
+    width: 179px;
+}
+
+.macApp {
+    border-top: 1px solid #ccc;
+    height: 405px;
+    width: 100%;
+    padding: 5% 22%;
+}
+
+
+.macLeft {
+    float: left;
+    margin-right: 40px;
+}
+
+.macLeft img {
+    float: left;
+    width: 243px;
+    margin-top: 71px;
+}
+
+.macRight {
+    float: left;
+
+}
+
+.macRight h3 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.macRight p {
+    font-size: 24px;
+    color: #aaa;
+    width: 425px;
+}
+
+.macRight .email {
+    margin: 15px 0;
+    padding: 15px 37px;
+    border-radius: 10em;
+    border: 1px solid #000;
+    box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.75);
+    width: 400px;
+}
+
+.macRight input {
+    outline: 0;
+    border: none;
+    font-size: 20px;
+}
+
+.macRight a {
+    margin: 0;
+}
+
+.footer {
+    background-color: #ff004d;
+    height: 214px;
+    color: white;
+    width: 100%;
+    padding-left: 2%;
+}
+
+.footer li {
+    list-style-type: none;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.company, .safety, .connect {
+    display: inline-block;
+    margin: 3% 0 3% 24px;
+}
+
+.company,.safety {
+    border-right: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+
+.align {
+    margin-right: 70px;
+}
+
+.align h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.connect img {
+    width: 16px;
+    margin-right: 7px;
+    position: relative;
+    top: 3px;
+    color: #eee;
+}
+
+.footer span {
+    display: block;
+    font-size: 14px;
+    margin-left: 2%;
+}
+
